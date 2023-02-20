@@ -1,0 +1,84 @@
+<!DOCTYPE html>
+<html>
+<head>
+ <meta charset="UTF-8">
+ <link rel="stylesheet" href="css/reset-min.css">
+ <link rel="stylesheet" href="css/style.css">
+ <!--スライドショーstart-->
+ <link rel="stylesheet" type="text/css" href="https://cdn.jsdelivr.net/npm/slick-carousel@1.8.1/slick/slick.css">
+ <!--スライドショーend-->
+ <!--英語フォントstart-->
+ <link rel="preconnect" href="https://fonts.googleapis.com">
+ <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+ <link href="https://fonts.googleapis.com/css2?family=Big+Shoulders+Display:wght@400;500&display=swap" rel="stylesheet">
+ <!--英語フォントend-->
+ <title>Top Gun Home</title>
+</head>
+<body>
+    <header>
+        <!--ハンバーグメニューstart-->
+        <div class="hamburger-menu">
+            <input type="checkbox" id="menu-btn-check">
+            <label for="menu-btn-check" class="menu-btn"><img src="images/home-menu.png" alt=""></label>
+            <div class="menu-content">
+                <div class="menu-text">
+                    <ul>
+                        <li><a href="index.html" target="_blank">HOME</a></li>
+                        <li><a href="trailer.html" target="_blank">TRAILER</a></li>
+                        <li><a href="cast.html" target="_blank">CAST</a></li>
+                        <li><a href="column.html" target="_blank">COLUMN</a></li>
+                    </ul>
+                    <ul class="menu-sns">
+                        <ul class="menu-sns1">
+                            <li><img src="images/white_facebook.png" alt=""></li>
+                            <li><img src="images/white_instagram.png" alt=""></li>
+                        </ul>
+                        <ul class="menu-sns2">
+                            <li><img src="images/white_Twitter.png" alt=""></li>
+                            <li><img src="images/white_youtube.png" alt=""></li>
+                        </ul>
+                    </ul>
+                </div>
+                <div class="menu-image"><img src="images/menu.png" alt=""></div>
+            </div>
+        </div>
+        <!--ハンバーグメニューend-->
+    </header>
+    <div class="home-trailer">
+        <video width="100%" src="videos/映画『トップガン マーヴェリック』ファイナル予告.mp4" loop autoplay muted></video>
+    </div>
+    <main>
+         <!--スライドショーstart-->
+        <div class="home-colunm">
+            <ul class="slider">
+                <li><img src="images/home-colunm-1.jpg" alt=""></li>
+                <li><img src="images/home-colunm-2.jpg" alt=""></li>
+                <li><img src="images/home-colunm-3.jpg" alt=""></li>
+                <li><img src="images/home-colunm-4.jpg" alt=""></li>
+            </ul>
+        </div>
+        <script src="https://code.jquery.com/jquery-3.4.1.min.js" integrity="sha256-CSXorXvZcTkaix6Yvo6HppcZGetbYMGWSFlBw8HfCJo=" crossorigin="anonymous"></script>
+        <script src="https://cdn.jsdelivr.net/npm/slick-carousel@1.8.1/slick/slick.min.js"></script>
+        <script src="js/6-1-2.js"></script>
+        <!--スライドショーend-->
+        <!--無限ループアニメーションーstart-->
+        <div class="home-cast">
+            <div class="loop_wrap">
+                <a href="cast.html" target="_blank"><img src="images/home-cast.jpg" alt="" class="home-cast-img"></a>
+                <a href="cast.html" target="_blank"><img src="images/home-cast.jpg" alt="" class="home-cast-img"></a>
+                <a href="cast.html" target="_blank"><img src="images/home-cast.jpg" alt="" class="home-cast-img"></a>
+            </div>
+        </div>
+        <!--無限ループアニメーションーend-->
+    </main>
+    <footer class="public-footer">
+        <p class="copyright">Copyright &copy; 2022 Top Gun All Rights Reserved</p>
+        <ul class="footer-menu">
+            <li><img src="images/white_facebook.png" alt=""></li>
+            <li><img src="images/white_instagram.png" alt=""></li>
+            <li><img src="images/white_Twitter.png" alt=""></li>
+            <li><img src="images/white_youtube.png" alt=""></li>
+        </ul>
+    </footer>
+</body>
+</html> 
